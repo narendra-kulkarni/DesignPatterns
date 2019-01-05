@@ -1,0 +1,14 @@
+Template method defines the structure of the algorithm and controls the different function calls within the
+algorithm. When high level components (super classes) are dependent on lower level components (sub classes)
+then template method pattern is useful.
+
+There are two ways to use template method pattern
+1) Using subclassing and delegating some of the behavior implementation to the sub classes.
+   e.g. Beverage - Tea and Coffee
+   
+2) Using well known method of interfaces
+   e.g. compareTo method of interface Comparable, which gets used in sorting algorithms.
+   Here sorting method would be the template method and it depends on objects to implement
+   the interface it is expecting. 
+   
+ Very useful pattern for framework creation.

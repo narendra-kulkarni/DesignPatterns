@@ -1,0 +1,8 @@
+This pattern allows us to encapsulate method invocation in an object so that we can pass it around as 
+first class citizen.
+
+Java does not support pointer to function, hence we can not store method invocations in a collection. 
+But with this pattern we are able to do it. If method invoked is to be executed at a later point in time
+then this pattern is really useful. Java runnable is a good example of this pattern.
+
+Command pattern also helps to implement undo commands, queuing mechanism and logging.

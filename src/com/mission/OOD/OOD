@@ -1,0 +1,15 @@
+Designing of the object oriented classes generally happen through following steps
+1) Problem statement / Understand the system (What it is?)
+2) Use case analysis (How it works?)
+3) Identify objects (both tangible and intangible)
+4) Identify objects interactions
+5) Identify attributes
+6) Refine with hierarchy
+7) Validate OO principles
+
+At the end of the above steps, a decent class diagram can be obtained which serves as high level design of the system.
+
+
+In low level design consider following things
+1) Use of data structure
+2) Running complexity of algorithms
